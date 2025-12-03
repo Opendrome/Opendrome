@@ -1,20 +1,12 @@
-# Node modules
-/node_modules
+# Hide everything by default
+/*
 
-# Compilation output
-/dist
+# EXCEPT the folders we want
+!/v3-core/
+!/v3-periphery/
 
-# pnpm deploy output
-/bundle
+# OPTIONAL: keep README
+!/README.md
 
-# Hardhat Build Artifacts
-/artifacts
-
-# Hardhat compilation (v2) support directory
-/cache
-
-# Typechain output
-/types
-
-# Hardhat coverage reports
-/coverage
+# Prevent gitignore itself from being ignored
+!.gitignore
