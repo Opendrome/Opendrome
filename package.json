@@ -1,0 +1,28 @@
+{
+  "name": "opendrome",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+
+  "devDependencies": {
+    "@types/node": "^22.19.1",
+    "hardhat": "^3.0.16",
+    "typescript": "~5.8.0"
+  },
+
+  "dependencies": {
+    "@ledgerhq/hw-app-eth": "^6.47.1",
+    "@ledgerhq/hw-transport-webusb": "^6.29.13",
+    "@openzeppelin/contracts": "^5.4.0",
+
+    "@opendrome/v3-core": "file:./v3-core",
+    "@opendrome/v3-periphery": "file:./v3-periphery"
+  }
+}
